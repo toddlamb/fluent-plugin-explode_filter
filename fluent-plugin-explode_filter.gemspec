@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jonathan Serafini"]
   spec.email         = ["jonathan@serafini.ca"]
 
-  spec.summary       = %{A fluentd filter plugin that will split period separated fileds to nested hashes.}
+  spec.summary       = %{A fluentd filter plugin that will split period separated fields to nested hashes.}
   spec.description   = spec.summary
   spec.homepage      = "https:////github.com/JonathanSerafini/fluent-plugin-explode_filter"
   spec.license       = "apache2"

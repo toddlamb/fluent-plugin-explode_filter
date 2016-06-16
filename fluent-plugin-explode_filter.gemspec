@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %{A fluentd filter plugin that will split period separated fields to nested hashes.}
   spec.description   = spec.summary
-  spec.homepage      = "https:////github.com/JonathanSerafini/fluent-plugin-explode_filter"
+  spec.homepage      = "https://github.com/JonathanSerafini/fluent-plugin-explode_filter"
   spec.license       = "apache2"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

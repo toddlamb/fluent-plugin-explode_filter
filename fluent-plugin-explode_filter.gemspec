@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-explode_filter"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Jonathan Serafini"]
   spec.email         = ["jonathan@serafini.ca"]
 
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
 
   spec.add_runtime_dependency "fluentd", [">= 0.12.0", "< 0.15.0"]
-  spec.add_runtime_dependency "fluent-plugin-mutate_filter", "<= 1.1.0"
+  spec.add_runtime_dependency "fluent-plugin-mutate_filter", [">= 0.2.0", "<= 1.1.0"]
 end

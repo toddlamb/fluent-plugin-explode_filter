@@ -1,5 +1,5 @@
 require 'fluent/filter'
-require 'fluent/plugin_mixin/mutate_event'
+require 'fluent/plugin/mixin/mutate_event'
 
 module Fluent
   class ExplodeFilter < Filter
